@@ -1,0 +1,21 @@
+#cityInput {
+    max-width: 400px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#searchBtn {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#searchBtn:hover {
+    background: #0080ff;
+}
+#weatherForecastForm {
+
+}
