@@ -18,9 +18,19 @@
    git clone https://github.com/RomanTsitsunov/CityWeatherForecast
    cd CityWeatherForecast
    ```
-2. Запуск проекта:
+   
+2. Проверьте, что Redis запущен:
+   ```bash
+   redis-cli ping
+   ```
+   В ответ должны получить:
+   ```
+   PONG
+   ```
+   
+3. Запуск проекта:
    ```bash
    mvn clean compile exec:java -Dexec.mainClass="doczilla.cityweatherforecast.Main"
    ```
    
-3. Открыть http://localhost:8080/
+4. Открыть http://localhost:8080/
